@@ -53,7 +53,7 @@ export const OrderDetail = () => {
 
 					}
 				</div>
-				<div className='flex text-sm items-center mt-4 gap-4'>
+				<div className='flex text-sm items-center my-4 gap-4'>
 					<span className="font-bold"> Quantity : </span>
 					<div className='border flex items-center'>
 						<button onClick={handleDecrement} className='h-[20px] w-[20px] rounded-sm flex items-center justify-center  p-1 border bg-dark-brown text-white'>-</button>
@@ -62,11 +62,11 @@ export const OrderDetail = () => {
 					</div>
 				</div>
 				<div className='lg:my-7 w-full xl:w-fit'>
-					<div className='flex gap-2 md:my-4 left-0  fixed bottom-0 border-2 z-[999] md:border-none bg-white w-full p-2 md:relative md:bg-transparent '>
-						<button  className='border-dark-brown  text-sm md:text-md w-1/2 xl:min-w-[200px]  md:border rounded-[10px] xl:whitespace-nowrap items-center  p-3 justify-center text-dark-brown flex'><img className='h-[25px] md:h-auto' src={CartIcon}></img> ADD TO CART</button>
-						<button className='bg-dark-brown text-sm md:text-md w-1/2 xl:min-w-[200px] border rounded-[10px] p-3 text-white'> ORDER NOW</button>
+					<div className='flex gap-2 md:my-4 left-0  fixed bottom-0 border-2 z-[999] md:border-none bg-white w-full  md:relative md:bg-transparent '>
+						<button  className='border-dark-brown  text-sm md:text-md w-1/2 xl:min-w-[200px]  md:border rounded-[10px] xl:whitespace-nowrap items-center  p-2 justify-center text-dark-brown flex'><img className='h-[20px] md:h-[30px]' src={CartIcon}></img> ADD TO CART</button>
+						<button className='bg-dark-brown text-sm md:text-md w-1/2 xl:min-w-[200px] border rounded-[10px] p-2 text-white'> ORDER NOW</button>
 					</div>
-					<button className='bg-dark-brown duration-300  text-sm md:text-md hover:border-dark-brown hover:bg-white hover:text-dark-brown mt-2 justify-center  border rounded-[10px] p-4 text-white w-full'> DEALER LOCATOR</button>
+					<button className='bg-dark-brown duration-300  text-sm md:text-md hover:border-dark-brown hover:bg-white hover:text-dark-brown mt-2 justify-center  border rounded-[10px] p-3 text-white w-full'> DEALER LOCATOR</button>
 				</div> 
 				<div className='mr-10 mt-5'>
 					<div>
