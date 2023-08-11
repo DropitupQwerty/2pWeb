@@ -74,28 +74,28 @@ export const ItemsMedia = () => {
 				/>
 
 				<button className="absolute bottom-3 right-3" onClick={toggleFullScreen}>
-					<img src={FullScreenIcon} />
+					<img className='h-[30px]' src={FullScreenIcon} />
 				</button>
 			
 				<button className='absolute' onClick={handlePlayVideo} >
 					{!isPlaying ? 
 						<div className=" w-0 h-0 rounded-md
-                        border-t-[40px] border-t-transparent
-                        border-l-[65px] border-l-[#FB1010]
-                        border-b-[40px] border-b-transparent">
+                        border-t-[30px] border-t-transparent
+                        border-l-[55px] border-l-[#FB1010]
+                        border-b-[30px] border-b-transparent">
 						</div> :
-						<div className='flex gap-4 hover:opacity-100 opacity-20 duration-500'>
-							<span className='w-[20px] bg-[#FB1010] h-[60px]'></span>
-							<span className='w-[20px] bg-[#FB1010] h-[60px]'></span>
+						<div className='flex gap-3 hover:opacity-100 opacity-10 duration-500'>
+							<span className='w-[20px] bg-[#FB1010] h-[55px]'></span>
+							<span className='w-[20px] bg-[#FB1010] h-[55px]'></span>
 						</div>
 					}
 				</button>
 			
 			
 			</div>
-			<div className='absolute flex mt-2 lg:relative right-2 h-full  flex-col gap-2 px-4 '>
+			<div className='absolute flex mt-2 lg:relative right-2 h-full  flex-col gap-2 px-6 '>
 				{Icons.map((icon, index)=> 
-					<div key={index}><img src={icon.icon} className='hover:bg-green duration-300 h-[40px] p-2 w-auto hover:bg-gre bg-darkest-brown rounded-full'></img></div>        )
+					<button key={index}><img src={icon.icon} className='hover:bg-[#159522]  object-cover duration-300 h-[40px] p-2 w-auto  bg-darkest-brown rounded-full'></img></button>        )
 				}
 			</div>
 		</div>

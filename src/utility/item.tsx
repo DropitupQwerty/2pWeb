@@ -1,4 +1,7 @@
 
+import Variant1 from '../assets/variant1.jpg'
+import Variant2 from '../assets/variant2.jpg'
+
 export type itemType = {
     name: string;
     price: number;
@@ -19,10 +22,10 @@ export const item : itemType = {
 	skuNumber :  'ASH1250578',
 	description : ' A gallery shelf fit for any design project, Craig console it’s perfect for living rooms and entryways, even for a dining room. It provides a great solution to expose your accessories and complete your decor without having to sacrifice style. Elegant and luxurious, its shiny structure it’s the extra kick your decor or design project needs to be completed. It’s a classic but timeless solution to all your problem',    variations : [
 		{
-			variant : 'green' 
+			variant :  Variant1
 		},
 		{
-			variant : 'red' 
+			variant : Variant2
 		},
 	],
 	overview : 'A gallery shelf fit for any design project, Craig console it’s perfect for living rooms and entryways, even for a dining room. It provides a great solution to expose your accessories and complete your decor without having to sacrifice style. Elegant and luxurious, its shiny structure it’s the extra kick your decor or design project needs to be completed. It’s a classic but timeless solution to all your proble', 
